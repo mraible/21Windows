@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "jhipsterVersion": "4.6.1",
+    "applicationType": "monolith",
+    "gitHubOrganization": "mraible",
+    "baseName": "21Windows",
+    "packageName": "com.raibledesigns.vdubs",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": false,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": true,
+    "useSass": "true",
+    "clientPackageManager": "yarn",
+    "testFrameworks": [
+      "gatling",
+      "protractor"
+    ],
+    "enableTranslation": "true",
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "packageFolder": "com/raibledesigns/vdubs",
+    "jwtSecretKey": "e37a6b7bd5ef9a3b33cfa5e13fb45c67d5e031c7",
+    "jhiPrefix": "jhi"
+  }
+}
